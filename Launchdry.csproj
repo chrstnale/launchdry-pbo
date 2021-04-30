@@ -125,8 +125,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\LaundryModel.cs" />
-    <Compile Include="Models\ServiceModel.cs" />
+    <Compile Include="Models\Laundry\LaundryModel.cs" />
+    <Compile Include="Models\Laundry\ServiceModel.cs" />
+    <Compile Include="Models\PayInstruction\Class1.cs" />
+    <Compile Include="Models\PayInstruction\nonTunai.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Business\SecurityService.cs" />
